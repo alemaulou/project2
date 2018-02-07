@@ -1,5 +1,5 @@
 /* Parts of this code, specifically the circular balls, were adapted from
-a tutorial I followed by "Chris Courses" url = https://www.youtube.com/watch?v=789weryntzM&list=PLpPnRKq7eNW3We9VdCfx9fprhqXHwTPXL&index=7,
+a tutorial I followed by "Chris Courses," url = https://www.youtube.com/watch?v=789weryntzM&list=PLpPnRKq7eNW3We9VdCfx9fprhqXHwTPXL&index=7,
 i followed the tutorial, and made some modifications. */
 
 'use strict';
