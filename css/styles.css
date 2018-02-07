@@ -1,0 +1,165 @@
+#circle_container {
+  position: absolute;
+  top: 35vh;
+  right: 30vw;
+  background: #f1b6b6;
+  opacity: 0.90;
+  width: 200px;
+  height: 200px;
+  border: 10px solid #ffffff;
+  border-radius: 50%;
+}
+
+#circle_container div {
+  position: relative;
+  text-align: center;
+  top: 13vh;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: .1em;
+  text-align: center;
+  font-style: italic;
+  text-shadow: 1px 1px #7c5858;
+  text-transform: lowercase;
+  font-size: 1em;
+  line-height: 1;
+}
+
+#circle {
+  position: relative;
+  margin: 10px;
+}
+
+body {
+  margin: 0;
+}
+
+.cat_image img {
+  position: absolute;
+  width: 50vw;
+  bottom: 10vh;
+}
+
+.cat_image2 img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 90vw;
+}
+
+.cat_image3 img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 80vw;
+}
+
+.cat_image4 img {
+  position: absolute;
+  bottom: 40vh;
+  right: 5vw;
+  width: 20vw;
+}
+
+.cat_image5 img {
+  position: absolute;
+  top: 20vh;
+  left: 0vw;
+  width: 30vw;
+}
+
+.cat_image6 img {
+  position: absolute;
+  top: 0;
+  left: 15vw;
+  width: 15vw;
+}
+
+canvas {
+  border: 1 px solid black;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  background-color: white;
+}
+
+/* Begin le_media_queris.*/
+
+@media (min-width: 500px) {
+  #circle_container {
+    right: 50vw;
+  }
+  .cat_image img {
+    bottom: 0;
+  }
+  .cat_image3 img {
+    width: 50vw;
+  }
+  .cat_image4 img {
+    bottom: 0;
+    right: 30vw;
+  }
+  .cat_image5 img {
+    top: 0;
+    width: 30vw;
+  }
+  .cat_image6 img {
+    position: absolute;
+    top: 25vh;
+    left: 0vw;
+  }
+}
+  @media (min-width: 768px) {
+    #circle_container {
+      right: 50vw;
+    }
+    .cat_image img {
+      bottom: 0;
+    }
+    .cat_image2 img {
+      width: 60vw;
+    }
+    .cat_image3 img {
+      width: 50vw;
+    }
+    .cat_image4 img {
+      bottom: 0;
+      right: 30vw;
+    }
+    .cat_image5 img {
+      top: 0;
+      width: 30vw;
+    }
+    .cat_image6 img {
+      position: absolute;
+      top: 0;
+      left: 30vw;
+    }
+  }
+    @media (min-width: 992px) {
+      #circle_container {
+        right: 55vw;
+      }
+      .cat_image img {
+        bottom: 0;
+      }
+      .cat_image2 img {
+        width: 50vw;
+      }
+      .cat_image3 img {
+        width: 40vw;
+      }
+      .cat_image4 img {
+        bottom: 0;
+        right: 30vw;
+      }
+      .cat_image5 img {
+        top: 0;
+        width: 30vw;
+      }
+      .cat_image6 img {
+        position: absolute;
+        top: 0;
+        left: 38vw;
+      }
+    }
